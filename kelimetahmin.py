@@ -1,12 +1,14 @@
 #coding: utf-8
-my_word = "deneme"
+from sys import argv
+my_word = argv[1]
+letter_list = ["_"] * len(my_word)
 
-print "------"
-inp = raw_input("bir harf giriniz:")
+print " ".join(letter_list)
 
-
-def find_index_of_letter(word, letter):
-    if letter in word:
-        return word.index(letter)
-
-print find_index_of_letter(my_word, inp)
+while "_" in letter_list:
+    inp = raw_input("bir harf giriniz:")
+    for a, b in enumerate(my_word):
+        if b == inp:
+            letter_list[a] = inp
+    print " ".join(letter_list)
+print("Well Done")
