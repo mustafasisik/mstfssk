@@ -11,7 +11,6 @@ tyrogue vigoroth vulpix wailord wartortle whismur wingull yamask
 word_list = text.split()
 word_tuple_list = []
 start_letters = {}
-end_letters = {}
 my_list = []
 
 
@@ -24,10 +23,6 @@ for w in word_list:
     else:
         start_letters[first] = 1
 
-    if last in end_letters:  # Creating end_letters numbers dictionary
-        end_letters[last] = int(end_letters[last]) + 1
-    else:
-        end_letters[last] = 1
     word_tuple_list.append((w, first, last))
 
 
@@ -54,4 +49,5 @@ def make_sequence_from_tuple(all_words_tuple):
         i += 1
     return my_list
 
-print make_sequence_from_tuple(word_tuple_list)
+print "\n", make_sequence_from_tuple(word_tuple_list)
+print "\n%s words are sequenced systematically" % len(my_list)
