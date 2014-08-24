@@ -31,7 +31,7 @@ for w in word_list:
     word_tuple_list.append((w, first, last))
 
 
-def blablabla(all_words_tuple):
+def make_sequence_from_tuple(all_words_tuple):
     temp = all_words_tuple
     max_number = 0
     my_word = None
@@ -43,7 +43,6 @@ def blablabla(all_words_tuple):
                 max_number = start_letters[l]
                 my_word = w
         max_number = 0
-        print more_used_letter, my_word
         my_list.append(my_word)
         for t in all_words_tuple:
             if my_word in t:
@@ -53,6 +52,6 @@ def blablabla(all_words_tuple):
             if f == more_used_letter:
                 temp.append((w, f, l))
         i += 1
-    print my_list
+    return my_list
 
-blablabla(word_tuple_list)
+print make_sequence_from_tuple(word_tuple_list)
