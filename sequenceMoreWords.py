@@ -44,14 +44,15 @@ for w, f, l in word_tuple_list:  # creates a tuple list from more used letter
         t = (w, f, l)
         temp_list.append(t)
 
-print "\nthi is temp list: ",  temp_list
+#print "\nthi is temp list: ",  temp_list
 
 
 def blablabla(all_words_tuple):
     temp = all_words_tuple
     max_number = 0
     my_word = None
-    while all_words_tuple:
+    i = 0
+    while i < 20:
         for w, f, l in temp:
             if l in start_letters and start_letters[l] > max_number:
                 more_used_letter = l
@@ -62,3 +63,7 @@ def blablabla(all_words_tuple):
         for w, f, l in all_words_tuple:
             if f == more_used_letter:
                 temp.append((w, f, l))
+        i += 1
+    print my_list
+
+blablabla(word_tuple_list)
