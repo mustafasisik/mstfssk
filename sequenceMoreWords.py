@@ -30,22 +30,6 @@ for w in word_list:
         end_letters[last] = 1
     word_tuple_list.append((w, first, last))
 
-"""max_number = 0
-for w, f, l in word_tuple_list:    # finding most used last letter
-    if l in start_letters and start_letters[l] > max_number:
-        more_used_letter = l
-        max_number = start_letters[l]
-print "this is best letter: ", more_used_letter
-
-
-temp_list = []
-for w, f, l in word_tuple_list:  # creates a tuple list from more used letter
-    if f == more_used_letter:
-        t = (w, f, l)
-        temp_list.append(t)"""
-
-#print "\nthi is temp list: ",  temp_list
-
 
 def blablabla(all_words_tuple):
     temp = all_words_tuple
