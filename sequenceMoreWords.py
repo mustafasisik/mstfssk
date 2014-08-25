@@ -30,13 +30,14 @@ def make_sequence_from_tuple(all_words_tuple):
     temp = all_words_tuple
     max_number = 0
     my_word = None
-    i = 0
-    while i < 20:
+    while True:
         for w, f, l in temp:
             if l in start_letters and start_letters[l] > max_number:
                 more_used_letter = l
                 max_number = start_letters[l]
                 my_word = w
+        if my_list and my_word == my_list[-1]:
+            break
         max_number = 0
         my_list.append(my_word)
         for t in all_words_tuple:
@@ -46,7 +47,6 @@ def make_sequence_from_tuple(all_words_tuple):
         for w, f, l in all_words_tuple:
             if f == more_used_letter:
                 temp.append((w, f, l))
-        i += 1
     return my_list
 
 print "\n", make_sequence_from_tuple(word_tuple_list)
