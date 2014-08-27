@@ -45,7 +45,6 @@ def number3(number):
 
     return my_string
 
-num = raw_input("Enter a number:")
 
 def numberText(number):
     if int(number) == 0:
@@ -53,7 +52,10 @@ def numberText(number):
     my_string = ""
     i = 0
     while number:
-        my_string = number3(number[-3:]) + text_list[i] + my_string
+        if int(number[-3:]) == 0:
+            my_string = number3(number[-3:]) + my_string
+        else:
+            my_string = number3(number[-3:]) + text_list[i] + my_string
         number = number[:-3]
         i += 1
     if my_string[:6] == "BirBin":
@@ -61,29 +63,28 @@ def numberText(number):
 
     return my_string
 
-print numberText(num)
 #print map(number3, ["123", "234", "643", "999", "10", "00001", "00000"])
 
-assert number3("307") == "UcYuzYedi", "Hata"
-assert number3("007") == "Yedi", "Hata"
-assert number3("100") == "Yuz", "Hata"
-assert number3("999") == "DokuzYuzDoksanDokuz", "Hata"
-assert number3("213") == "IkiYuzOnUc", "Hata"
-assert number3("001") == "Bir", "Hata"
-assert number3("099") == "DoksanDokuz", "Hata"
-assert number3("500") == "BesYuz", "Hata"
-assert number3("999") == "DokuzYuzDoksanDokuz", "Hata"
-assert number3("01") == "Bir", "Hata"
+assert number3("307") == "UcYuzYedi", "Beklenilen " + number3("307")
+assert number3("007") == "Yedi", "Beklenilen " + number3("007")
+assert number3("100") == "Yuz", "Beklenilen " + number3("100")
+assert number3("999") == "DokuzYuzDoksanDokuz", "Beklenilen " + number3("999")
+assert number3("213") == "IkiYuzOnUc", "Beklenilen " + number3("213")
+assert number3("001") == "Bir", "Beklenilen " + number3("001")
+assert number3("099") == "DoksanDokuz", "Beklenilen " + number3("099")
+assert number3("500") == "BesYuz", "Beklenilen " + number3("500")
+assert number3("999") == "DokuzYuzDoksanDokuz", "Beklenilen " + number3("999")
+assert number3("01") == "Bir", "Beklenilen " + number3("01")
 
 
 assert numberText("02") =="Iki", "Hatasi"
 assert numberText("99999") =="DoksanDokuzBinDokuzYuzDoksanDokuz", "Sifir Hatasi"
 assert numberText("1000") =="Bin", "Sifir Hatasi"
+assert numberText("1000000000000") == "BirTrilyon", "Beklenilen: " + numberText("1000000000000")
 
-raw_input("Enter to exit:")
-
-
-
+while True:
+    num = raw_input("Enter a number:")
+    print numberText(num)
 
 
 
