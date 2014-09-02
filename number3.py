@@ -47,7 +47,8 @@ def number3(number):
 
 
 def numberText(number):
-    if int(number) == 0:
+    number = number.lstrip("0")
+    if number == "":
         return "Sifir"
     my_string = ""
     i = 0
