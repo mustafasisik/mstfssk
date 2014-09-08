@@ -1,4 +1,4 @@
-my_file = open("She.txt", "r")
+my_file = open("tahir.txt", "r")
 
 
 def reverse_text(file_name):
@@ -6,7 +6,7 @@ def reverse_text(file_name):
 
 
 def write_reverse_order(file_name):
-    open("reversed_she.txt", "w").writelines(file_name.readlines()[::-1])
+    open("hasangorsun.txt", "w").writelines(file_name.readlines()[::-1])
     print("New File Created")
 
 
