@@ -1,12 +1,7 @@
-d = {1 ="Vol", 5 ="Meh", 7 ="Sow", 5 ="Emr"}
+d = {"cemil": "can", "canan": "duran", "betul": "sibel", "sahin":"metin"}
 
 
 def where(x, dic):
-    new_dic = {}
-    for i in dic:
-        if i == x:
-            new_dic.add(new_dic[i])
-    return new_dic
+    return [i for i in dic if x in i]
 
-
-print where(5, d)
+print where("a", d)
