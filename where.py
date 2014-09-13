@@ -1,4 +1,4 @@
-d = {"cemil": "can", "canan": "duran", "betul": "sibel", "sahin":"metin"}
+d = {"cemil": "can", "canan": "duran", "betul": "sibel", "sahin": "metin"}
 
 
 def where(x, dic):
