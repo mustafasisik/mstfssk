@@ -1,3 +1,5 @@
+
+
 d = {"cemil": "can", "canan": "duran", "betul": "sibel", "sahin": "metin"}
 
 
