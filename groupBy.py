@@ -1,0 +1,2 @@
+def groupBy(f, liste):
+
