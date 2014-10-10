@@ -9,4 +9,4 @@ def my_map(f, liste):
         print f(i)
 
 
-assert square(3) == 9
+print my_map(square, l)
