@@ -1,7 +1,7 @@
 def flatten(liste):
     l = []
     for x in liste:
-        if x is list:
+        if type(x) is list:
             flatten(x)
             print "mustafa"
         else:
@@ -11,4 +11,3 @@ def flatten(liste):
 
 
 print flatten([1, [2], [3, [[4]]]])
-
