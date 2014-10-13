@@ -1,20 +1,18 @@
 text = """bugun hava cok guzel. bu yuzden bugun disari cikip hava almak istiyorum.
 cok yorgunum ama bir daha bu havayi bulacagimi sanmiyorum."""
 
-def indexOfWords(textName):
+def indexOfWord(textName):
     d = {}
     sentenceList = textName.split(".")
-    sentenceNumber = 0
+    wordNumber = -1
     for sentence in sentenceList:
-        sentenceNumber += 1
-        wordNumber = 0
+        sentenceIndex = []
         for word in sentence.split():
             wordNumber += 1
+            sentenceIndex.append(wordNumber)
             if not word in d:
-                d[word] = [(sentenceNumber, wordNumber)]
+                d[word] = (wordNumber, sentenceIndex)
     return d
 
 
-
-
-print indexOfWords(text)
+print indexOfWord(text)
