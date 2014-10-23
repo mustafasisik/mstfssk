@@ -23,6 +23,8 @@ def indexation(text, w):
         else:
             word = word + c
         index += 1
+
+    print indexList, d
     for x in d[w]:
         if x == indexList[0]:
             result[x] = text[: indexList[indexList.index(x) + 2]]
