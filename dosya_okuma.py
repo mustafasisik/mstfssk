@@ -1,4 +1,3 @@
-
 import sys
 fileName = sys.argv[1]
 cikti = open(fileName, "r")

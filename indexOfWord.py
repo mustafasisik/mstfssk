@@ -1,7 +1,7 @@
-text = """bugun hava cok guzel. bu yuzden bugun disari cikip hava almak istiyorum.
-cok yorgunum. ama bir daha bu havayi bulacagimi sanmiyorum."""
+from sys import argv
+script, fileName, word = argv
 
-def indexOfWord(textName):
+def indexation(textName):
     d = {}
     sentenceList = textName.split(".")
     wordNumber = 0
@@ -17,4 +17,4 @@ def indexOfWord(textName):
     return d
 
 
-print indexOfWord(text)
+print indexation(text)
