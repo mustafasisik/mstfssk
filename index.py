@@ -2,36 +2,54 @@ from sys import argv
 from pprint import pprint
 
 fileName = argv[1]
-word = argv[2]
 text = open(fileName, "r").read()
 
 
-def indexation(text, w):
+#metindeki kelimelerin oldugu indexleri listeler halinde dictionaride saklar
+def indexation(text):
     d = {}
-    result = {}
     index = 0
-    indexList = [0]
+    indexList = []
     word = ""
     for c in text.lower():
         if not c.isalnum():
             if not word == "":
-                indexList.append(index+1)
                 m = d.get(word, [])
                 m.append(index-len(word))
+                indexList.append(index-len(word))
                 d[word] = m
             word = ""
         else:
             word = word + c
         index += 1
+    return d, indexList
 
-    print indexList, d
-    for x in d[w]:
-        if x == indexList[0]:
-            result[x] = text[: indexList[indexList.index(x) + 2]]
-        elif x == indexList[len(indexList)-1]:
-            result[x] = text[indexList[indexList.index(x)-1]:]
-        else:
-            result[x] = text[indexList[indexList.index(x)-1]: indexList[indexList.index(x) + 2]]
-    return result
 
-pprint(indexation(text, word))
+"""indexlenmis kelime listesini ve indexleri alir,
+aranan kelimenin her bir indexini,
+kendisinin onundeki ve sonundaki kelimelerle beraber bir listeye ekler.
+ve bu listelerin oldugu bir liste doner"""
+
+def search(word, indexData):
+    d, indexList = indexation(indexData)
+    listem = []
+    if word not in d: """ if not word in d gibi kullanirsan not word olarak algilar."""
+        return "there is no such word!"
+    for i in d[word]:
+        ind = indexList.index(i)
+        l = [str(i), word] # kelime obeginin bulundugu soz obegi
+        """kelimenin bulundugu indexin once ve sonrasinda kelime varsa
+        bunu soz obegine ekle"""
+        for x in d:
+            if indexList[ind - 1] in d[x] and ind != 0:
+                l.insert(1, x)
+            if ind < len(indexList) - 1 and indexList[ind + 1] in d[x]:
+                l.append(x)
+        listem.append(" ".join(l))
+    return listem
+
+
+if __name__ == "__main__":
+    while 1:
+        word = raw_input("what word you are seacrhing for: ")
+        pprint(search(word, text))

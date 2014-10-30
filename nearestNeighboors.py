@@ -22,7 +22,7 @@ def findDistances():
     for x1, y1 in points:
         distanceList = []
         for x2, y2 in points:
-            distanceList.append((findDistance(x1, y1, x2, y2), x2, y2))
+            distanceList.append((findDistance(x1, y1 x2, y2), x2, y2))
         distances[(x1, y1)] = sorted(distanceList)[1:neighborsCount+1]
     return distances
 
