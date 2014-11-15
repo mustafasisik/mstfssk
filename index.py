@@ -30,14 +30,17 @@ aranan kelimenin her bir indexini,
 kendisinin onundeki ve sonundaki kelimelerle beraber bir listeye ekler.
 ve bu listelerin oldugu bir liste doner"""
 
+
 def search(word, indexData):
     d, indexList = indexation(indexData)
     listem = []
-    if word not in d: """ if not word in d gibi kullanirsan not word olarak algilar."""
+    """ if not word in d gibi kullanirsan not word olarak algilar."""
+    if word not in d:
         return "there is no such word!"
     for i in d[word]:
         ind = indexList.index(i)
-        l = [str(i), word] # kelime obeginin bulundugu soz obegi
+         # kelime obeginin bulundugu soz obegi
+        l = [str(i), word]
         """kelimenin bulundugu indexin once ve sonrasinda kelime varsa
         bunu soz obegine ekle"""
         for x in d:

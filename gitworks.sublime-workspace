@@ -1,0 +1,882 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ne",
+				"neighborsCount	statement"
+			],
+			[
+				"di",
+				"distanceList	statement"
+			],
+			[
+				"poi",
+				"points	statement"
+			],
+			[
+				"dis",
+				"distances	statement"
+			],
+			[
+				"re",
+				"return	keyword"
+			],
+			[
+				"poin",
+				"point1	statement"
+			],
+			[
+				"dista",
+				"distances	statement"
+			],
+			[
+				"cre",
+				"createPointList	function"
+			],
+			[
+				"p",
+				"PointList"
+			],
+			[
+				"po",
+				"PointList	statement"
+			],
+			[
+				"fin",
+				"findDistance	function"
+			],
+			[
+				"numberC",
+				"numberCount	statement"
+			],
+			[
+				"x2",
+				"x2-x1"
+			],
+			[
+				"y",
+				"y2-y1"
+			],
+			[
+				"s",
+				"sqrt	function"
+			],
+			[
+				"in",
+				"int	class"
+			],
+			[
+				"read",
+				"readline	function"
+			],
+			[
+				"ve",
+				"vect"
+			],
+			[
+				"el",
+				"elif	keyword"
+			],
+			[
+				"inde",
+				"indexList	statement"
+			],
+			[
+				"w",
+				"word	statement"
+			],
+			[
+				"fi",
+				"findIndex	function"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"st",
+				"strip	function"
+			],
+			[
+				"m",
+				"myWord	param"
+			],
+			[
+				"wo",
+				"word	forflow"
+			],
+			[
+				"sen",
+				"sentence	forflow"
+			],
+			[
+				"wor",
+				"wordList"
+			],
+			[
+				"de",
+				"debugging	function"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"file",
+				"fileName	statement"
+			],
+			[
+				"i",
+				"indexation	function"
+			],
+			[
+				"pr",
+				"print	function"
+			],
+			[
+				"wordn",
+				"wordName"
+			],
+			[
+				"sent",
+				"sentenceNumber	statement"
+			],
+			[
+				"word",
+				"wordNumberList	statement"
+			],
+			[
+				"sentenceNumber",
+				"sentenceNumberList	statement"
+			],
+			[
+				"li",
+				"list3"
+			],
+			[
+				"list",
+				"list2"
+			],
+			[
+				"lis",
+				"list2"
+			],
+			[
+				"l",
+				"list	class"
+			],
+			[
+				"n",
+				"not	keyword"
+			],
+			[
+				"ls",
+				"list	class"
+			],
+			[
+				"fl",
+				"float	class"
+			],
+			[
+				"ma",
+				"maximu	function"
+			],
+			[
+				"com",
+				"combineText	function"
+			],
+			[
+				"red",
+				"reduceRigth	function"
+			],
+			[
+				"ass",
+				"assert	keyword"
+			],
+			[
+				"my",
+				"my_file_object	statement"
+			],
+			[
+				"arg",
+				"args"
+			],
+			[
+				"len",
+				"len_list	statement"
+			],
+			[
+				"wri",
+				"write_reverse_order	function"
+			],
+			[
+				"fil",
+				"file_name	param"
+			],
+			[
+				"reve",
+				"reverse_text	function"
+			],
+			[
+				"wi",
+				"write	function"
+			],
+			[
+				"numb",
+				"numberGroup	module"
+			],
+			[
+				"hello",
+				"hello_world	function"
+			],
+			[
+				"ste",
+				"steps	statement"
+			],
+			[
+				"b",
+				"Bin"
+			],
+			[
+				"mi",
+				"Milyon"
+			],
+			[
+				"num",
+				"number	param"
+			],
+			[
+				"S",
+				"Sifir"
+			],
+			[
+				"B",
+				"Beklenilen"
+			],
+			[
+				"number",
+				"number3	statement"
+			],
+			[
+				"bi",
+				"birler	statement"
+			],
+			[
+				"nu",
+				"number	statement"
+			],
+			[
+				"d",
+				"d_birler	statement"
+			],
+			[
+				"yuz",
+				"d_yuzler"
+			],
+			[
+				"tr",
+				"trilyon"
+			],
+			[
+				"mily",
+				"milyar"
+			],
+			[
+				"mil",
+				"milyon"
+			],
+			[
+				"str",
+				"string_number_list	statement"
+			],
+			[
+				"le",
+				"level	statement"
+			],
+			[
+				"fir",
+				"first_letters"
+			],
+			[
+				"all",
+				"all_words_tuple	param"
+			],
+			[
+				"tem",
+				"temp_list	statement"
+			],
+			[
+				"more",
+				"more_used_letter	statement"
+			],
+			[
+				"mo",
+				"more_used_letter	statement"
+			],
+			[
+				"sta",
+				"start_letters	statement"
+			],
+			[
+				"la",
+				"last	statement"
+			],
+			[
+				"lette",
+				"letters_dic	param"
+			],
+			[
+				"mos",
+				"most_used_letter	statement"
+			],
+			[
+				"al",
+				"all_liste	param"
+			],
+			[
+				"most",
+				"most_used_letter"
+			],
+			[
+				"my_",
+				"my_list	statement"
+			],
+			[
+				"max",
+				"max_number	statement"
+			],
+			[
+				"en",
+				"end_letters	statement"
+			],
+			[
+				"let",
+				"letters_used_at_start	function"
+			],
+			[
+				"star",
+				"start_letters	statement"
+			],
+			[
+				"f",
+				"first_letter	statement"
+			],
+			[
+				"letter",
+				"letters	param"
+			],
+			[
+				"letter_used",
+				"letters_used_at_start"
+			],
+			[
+				"ra",
+				"raw_input	function"
+			],
+			[
+				"gr",
+				"group_number	param"
+			],
+			[
+				"gro",
+				"group	statement"
+			],
+			[
+				"g",
+				"group_number	param"
+			],
+			[
+				"lim",
+				"limit	statement"
+			],
+			[
+				"liste",
+				"liste1	param"
+			],
+			[
+				"bae",
+				"base_number	statement"
+			],
+			[
+				"bse",
+				"base_number	statement"
+			],
+			[
+				"base",
+				"base_number	statement"
+			],
+			[
+				"bas",
+				"base_number	statement"
+			],
+			[
+				"T",
+				"True	class"
+			],
+			[
+				"line",
+				"line_number"
+			],
+			[
+				"fre",
+				"freq"
+			],
+			[
+				"frequency_",
+				"frequency_two"
+			],
+			[
+				"file_",
+				"file_one"
+			],
+			[
+				"freq",
+				"frequency	statement"
+			],
+			[
+				"line_",
+				"line_number	statement"
+			],
+			[
+				"lin",
+				"line	forflow"
+			],
+			[
+				"lett",
+				"letter_number	statement"
+			],
+			[
+				"kapa",
+				"kapali"
+			],
+			[
+				"c",
+				"closed"
+			],
+			[
+				"ex",
+				"expected_string	statement"
+			],
+			[
+				"e",
+				"exit"
+			],
+			[
+				"kap",
+				"kapali"
+			],
+			[
+				"ka",
+				"kapi	statement"
+			],
+			[
+				"out",
+				"outside"
+			],
+			[
+				"path",
+				"pathName"
+			],
+			[
+				"ro",
+				"Roy"
+			],
+			[
+				"True",
+				"True"
+			],
+			[
+				"o",
+				"outfile"
+			],
+			[
+				"to",
+				"tofile"
+			],
+			[
+				"txt",
+				"txt_again"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"u",
+				"u"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 64.0,
+		"selected_items":
+		[
+			[
+				"syn py",
+				"Set Syntax: Python"
+			],
+			[
+				"synt pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 204.0,
+		"history":
+		[
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/nearest.txt",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/nearestNeighboors.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/dosyaparcala.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/findword.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/functionalFindWord.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/index.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/She.txt",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/dosya_okuma.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/fonksiyonludosyaokuma.py",
+		"/C/Users/mustafa/Desktop/C++ denemeler/thenewboston.cc",
+		"/C/Users/mustafa/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/mustafa/Desktop/AnalyzeNumber.java",
+		"/C/Users/mustafa/Desktop/C++ denemeler/main.cc",
+		"/C/Users/mustafa/Desktop/style.css",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/indexing.py",
+		"/C/Users/mustafa/Desktop/main.cc",
+		"/C/Users/mustafa/Desktop/mani.cc",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/sequenceMoreWords.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/uniq.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/reduceRight.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/countBy.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/indexOfWord.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/findWordInManyFile.py",
+		"/C/Users/mustafa/Desktop/GLOCAL PHPS/page-home.php",
+		"/C/Users/mustafa/Desktop/GLOCAL PHPS/page-search.php",
+		"/C/Users/mustafa/Desktop/GLOCAL PHPS/single-company.php",
+		"/C/Users/mustafa/Desktop/wp-config.php",
+		"/C/Users/mustafa/Desktop/deneme.java",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/indexationOfWords.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/find.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/indexOfWords.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/groupBy.py",
+		"/C/Users/mustafa/Desktop/homework",
+		"/C/Users/mustafa/Desktop/indexOfWord.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/difference.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/intersection.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/union.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/without.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/flatten.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/argv_usage.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/compact.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/rest.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/last.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/initial.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/partition.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/size.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/shuffle.py",
+		"/C/Users/mustafa/AppData/Local/Temp/Temp1_metrodir_1_4.zip/metrodir/page-home.php",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/first.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/map.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/contains.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/filter.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/min.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/indexBy.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/stateprogram.py",
+		"/C/Users/mustafa/Desktop/wp-config--mekan.php",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/max.py",
+		"/C/Users/mustafa/Desktop/tr_TR.php",
+		"/C/Users/mustafa/Desktop/admin.php",
+		"/C/Users/mustafa/Desktop/alll/form.php",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/sortBy.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/pluck.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/invoke.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/where.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/maxpy",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/anagrams.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/number_to_string.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/findWhere.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/gircikoyunu.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/some.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/every.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/reject.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/cplusdeneme.cc",
+		"/C/Users/mustafa/AppData/Local/Temp/Temp1_knowhow.zip/knowhow/search.php",
+		"/C/Users/mustafa/Desktop/2008400120.htm",
+		"/C/Users/mustafa/Desktop/",
+		"/C/Users/mustafa/Desktop/javo-directory/templates/parts/part-single-maps.php",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/mapalistirmalar.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/MapModelNumber.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/each_function.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/letter_frequency.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/deff.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/homework.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/reduce.py",
+		"/C/Users/mustafa/Desktop/PYTHON DENEMELER/denem.py",
+		"/C/Users/mustafa/Desktop/PYTHON DENEMELER/savesave.py",
+		"/C/Users/mustafa/Desktop/PYTHON DENEMELER/ornek.py",
+		"/C/Users/mustafa/Desktop/PYTHON DENEMELER/domuzgribi.py",
+		"/C/Users/mustafa/Desktop/PYTHON DENEMELER/masdad.py",
+		"/C/Users/mustafa/Desktop/PYTHON DENEMELER/must.py",
+		"/C/Users/mustafa/Desktop/Rakamlar ile verilmiş bir sayıyı yazı ile yazdırac",
+		"/C/Users/mustafa/Desktop/hasan.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/tahir.txt",
+		"/C/Users/mustafa/Desktop/Pytton Notes",
+		"/C/Users/mustafa/AppData/Local/Temp/Temp1_woocommerce.zip/woocommerce/woocommerce.php",
+		"/C/Users/mustafa/Desktop/wp-login.php",
+		"/C/Users/mustafa/Desktop/themeforest-6897791-metrodir-directory-listings-wordpress-theme/Metrodir_1_3_6/metrodir/404.php",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/add.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/numberGroup.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/reverse_text_file.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/reversed_she.txt",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/enum.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/new_she.txt",
+		"/C/Users/mustafa/Desktop/header.php",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/hello_world_four_time.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/hello.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/NumberGroupingInList.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/number3.py",
+		"/C/Python27/Lib/calendar.py",
+		"/C/Users/mustafa/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/mustafa/Desktop/metrodir/admin/admin-functions.php",
+		"/C/Users/mustafa/Desktop/metrodir/skl/plugin/admin-options/functions.php",
+		"/C/Users/mustafa/Desktop/admin-functions.php",
+		"/C/Users/mustafa/AppData/Local/Temp/Temp1_metrodir.zip/metrodir/header.php",
+		"/C/Users/mustafa/Desktop/Homework python",
+		"/C/Users/mustafa/Desktop/dsd.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/netten.py",
+		"/C/Users/mustafa/Desktop/deneme.py",
+		"/C/Users/mustafa/Desktop/my_pokemans.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/mstfssk/sequenceMoreWords.py",
+		"/C/Users/mustafa/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/mustafa/Desktop/BvwDrMFCAAIKNQV.jpg-large",
+		"/C/Users/mustafa/Desktop/HowToRaiseMoney.txt",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/sequenceWords.py",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/text.txt",
+		"/C/Users/mustafa/Desktop/PythonWorks/mstfssk/new.py",
+		"/C/Users/mustafa/Desktop/sequenceMoreWords.py",
+		"/C/Users/mustafa/Desktop/Python Çalışmalar/mstfssk/sequenceWords.py"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 120.0,
+		"where_history":
+		[
+			"*py"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"main",
+			"numberCount",
+			"))",
+			"numberOfClosest",
+			"findDistance",
+			"glocal",
+			"#2894C",
+			"#2894CB;",
+			"#98B709",
+			"#98b709",
+			"#98B709",
+			"#98b709",
+			"#98B709",
+			"#98b709",
+			"#98B709",
+			"#98b709",
+			"#98B709",
+			"#98b709",
+			"#98B709",
+			"sentence",
+			"sentenceList",
+			"price",
+			"ind",
+			"login",
+			"lang",
+			"language",
+			"Logged",
+			"Logged in",
+			"metrodir",
+			"use_as_list",
+			"Beklenilen",
+			"reading_numbers",
+			"onlar",
+			"birler",
+			"number3",
+			"my_number_string",
+			"my_string",
+			"number",
+			"d_birler",
+			"\"Hata\"",
+			"level",
+			"my_level_name",
+			"level",
+			"time",
+			"l",
+			"f",
+			"temp_liste",
+			"word_tuple_list",
+			"last_letter",
+			"first_letter",
+			"letter",
+			"letters",
+			"listem",
+			"this ",
+			" I ",
+			" this ",
+			"this",
+			" this ",
+			"this",
+			"the",
+			"findWordInManyFile",
+			"arrys",
+			"(,",
+			"line",
+			"echo",
+			"echo _",
+			"echo",
+			"space",
+			"file"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "gitworks.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
